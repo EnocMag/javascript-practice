@@ -9,8 +9,8 @@ function anagram( word1, word2 ) {
 
     if (lower1.length === lower2.length) {
 
-        lower1.forEach(element1 => {
-            if (lower2.includes(element1)) {
+        lower1.forEach(element => {
+            if (lower2.includes(element)) {
                 anagr = true
             } else {
                 anagr = false
