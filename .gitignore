@@ -1,0 +1,14 @@
+# Node modules (si decides usar npm para algo)
+node_modules/
+
+# Quokka cache (en caso de que cree archivos temporales)
+.quokka/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
